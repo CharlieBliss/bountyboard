@@ -1,0 +1,56 @@
+{
+  "name": "quickstart-react",
+  "version": "0.0.1",
+  "description": "quickstart-react",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "23.6.0",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.6",
+    "css-loader": "^2.1.0",
+    "es6-promise": "^4.2.5",
+    "global": "^4.3.2",
+    "identity-obj-proxy": "^3.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^23.6.0",
+    "module": "^1.2.5",
+    "prop-types": "^15.6.2",
+    "qs": "^6.6.0",
+    "react": "16.7.0-alpha.2",
+    "react-dnd": "^7.0.2",
+    "react-dnd-html5-backend": "^7.0.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-material-layout": "^1.1.11",
+    "react-testing-library": "^5.4.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3"
+  }
+}

@@ -1,0 +1,21 @@
+.boardBackground {
+	background-image: url('http://beerkcrestaurants.com/beerkitchenkc/wp-content/uploads/2017/05/wood_texture_smlr.jpg');
+	height: 60%;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	max-width: 25%;
+	max-height: 50%;
+	width: auto;
+	height: auto;
+	display: block;
+	cursor: grab;
+}
+
+.hidden {
+	height: 0;
+	opacity: 0;
+}

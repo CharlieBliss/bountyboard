@@ -1,0 +1,7 @@
+.App {
+  margin: 1rem;
+  font-family: Futura, Helvetica;
+  height: 1080px;
+  display: flex;
+  justify-content: center;
+}
